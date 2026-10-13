@@ -1,4 +1,4 @@
-# Hi, I'm Mithujan 👋
+# Hi, I'm Miththujan 👋
 
 **Computer Science student at IIT & the University of Westminster · Level 5 · Colombo, Sri Lanka**
 
