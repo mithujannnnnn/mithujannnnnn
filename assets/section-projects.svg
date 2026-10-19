@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="What I'm building">
+  <defs>
+    <linearGradient id="dg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#19c3a6"/>
+      <stop offset="1" stop-color="#6f86ff"/>
+    </linearGradient>
+    <linearGradient id="dw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a45bff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#4f6bff" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="df" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#ff5d5d" stop-opacity="0"/>
+    </linearGradient>
+    <g id="dragon">
+      <!-- far wing -->
+      <g opacity="0.65">
+        <animateTransform attributeName="transform" type="rotate" values="8 100 56;-14 100 56;8 100 56" dur="1.7s" repeatCount="indefinite"/>
+        <path d="M100 56 C 92 30 66 6 34 4 C 50 16 50 26 60 34 C 66 26 76 28 82 40 C 88 34 94 38 98 50 Z" fill="url(#dw)"/>
+      </g>
+      <!-- tail -->
+      <path d="M2 102 C 26 112 54 98 74 84 L 90 66 C 64 84 34 94 2 102 Z" fill="url(#dg)"/>
+      <path d="M2 102 L 0 92 L 12 98 Z" fill="#6f86ff"/>
+      <!-- legs -->
+      <path d="M92 82 L 84 100 L 96 96 L 100 86 Z" fill="url(#dg)"/>
+      <path d="M116 80 L 112 98 L 124 92 L 124 80 Z" fill="url(#dg)"/>
+      <!-- body -->
+      <ellipse cx="102" cy="70" rx="36" ry="17" transform="rotate(-14 102 70)" fill="url(#dg)"/>
+      <!-- neck -->
+      <path d="M122 62 C 140 58 140 44 150 36 L 162 46 C 152 54 152 72 128 84 Z" fill="url(#dg)"/>
+      <!-- back spikes -->
+      <path d="M84 54 L 88 44 L 94 54 Z M98 50 L 103 39 L 109 50 Z M113 49 L 119 39 L 124 51 Z M127 46 L 134 37 L 137 49 Z" fill="#a45bff"/>
+      <!-- head -->
+      <path d="M146 30 L 180 28 L 194 38 L 180 45 L 156 50 Z" fill="url(#dg)"/>
+      <path d="M156 50 L 180 45 L 172 52 L 158 54 Z" fill="#3f55d9"/>
+      <path d="M150 30 L 136 10 L 158 26 Z" fill="#ffd166"/>
+      <path d="M158 28 L 150 14 L 166 26 Z" fill="#ffd166" opacity="0.8"/>
+      <circle cx="171" cy="36" r="3.2" fill="#ffffff"/>
+      <circle cx="172" cy="36" r="1.4" fill="#0a0f1f"/>
+      <!-- near wing -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="0 100 56;-20 100 56;0 100 56" dur="1.7s" repeatCount="indefinite"/>
+        <path d="M100 58 C 88 24 56 -2 12 6 C 34 20 34 32 48 40 C 54 30 68 32 76 46 C 84 40 92 44 96 56 Z" fill="url(#dw)"/>
+        <path d="M100 58 C 80 36 50 14 12 6 M100 58 C 84 44 62 36 48 40 M100 58 C 90 50 80 46 76 46" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="1.2"/>
+      </g>
+      <!-- fire breath -->
+      <g>
+        <path d="M194 38 C 206 32 218 34 232 38 C 218 42 206 44 194 38 Z" fill="url(#df)">
+          <animate attributeName="opacity" values="0.9;0.2;0.9" dur="0.9s" repeatCount="indefinite"/>
+        </path>
+        <circle cx="208" cy="38" r="2.4" fill="#ffd166">
+          <animate attributeName="cx" values="198;236" dur="1.2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;0" dur="1.2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="206" cy="36" r="1.8" fill="#ff9f5d">
+          <animate attributeName="cx" values="198;230" dur="1.5s" begin="0.4s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;0" dur="1.5s" begin="0.4s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+
+    <linearGradient id="bgpr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0f2e"/><stop offset="1" stop-color="#2e1a57"/>
+    </linearGradient>
+    <linearGradient id="ttpr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#c8d2ff"/>
+    </linearGradient>
+    <filter id="blpr" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="45"/></filter>
+    <pattern id="grpr" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+    <clipPath id="cppr"><rect width="1200" height="120" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#cppr)">
+    <rect width="1200" height="120" fill="url(#bgpr)"/>
+    <rect width="1200" height="120" fill="url(#grpr)"/>
+    <g filter="url(#blpr)">
+      <circle cx="140" cy="36" r="108" fill="#a45bff" opacity="0.5">
+        <animate attributeName="cx" values="140;360;140" dur="15s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1040" cy="96" r="108" fill="#ff8fb1" opacity="0.38">
+        <animate attributeName="cx" values="1040;800;1040" dur="18s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <rect x="0" y="0" width="8" height="120" fill="#a45bff"/>
+    <g opacity="0.9">
+      <g transform="translate(0,34) scale(0.42)">
+        <animateTransform attributeName="transform" type="translate" additive="sum" values="-260,0;2917,0" dur="16s" begin="0s" repeatCount="indefinite"/>
+        <use href="#dragon" xlink:href="#dragon"/>
+      </g>
+    </g>
+    <g font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif">
+      <text x="44" y="64" font-size="40" font-weight="700" letter-spacing="-0.5" fill="url(#ttpr)">What I'm building</text>
+      <text x="46" y="94" font-size="18" fill="#b4c0e6">Team work and coursework</text>
+    </g>
+  </g>
+</svg>
