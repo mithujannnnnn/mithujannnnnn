@@ -1,107 +1,59 @@
-<div align="center">
+<img src="assets/header.svg" alt="Mithujan: Computer Science student" width="100%" />
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00F5FF,50:7B2FF7,100:FF2E97&height=260&section=header&text=MITHUJAN&fontSize=80&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=CS%20Student%20%E2%80%A2%20Mobile%20%E2%80%A2%20APIs%20%E2%80%A2%20Systems&descSize=20&descAlignY=62" width="100%" />
+<p align="center">
+  <a href="https://www.linkedin.com/in/miththujanniranjan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:mithujann0405@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.instagram.com/mithujannnnn/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <img src="https://komarev.com/ghpvc/?username=mithujannnnnn&label=Profile+views&color=4f6bff&style=flat-square" alt="Profile views" />
+</p>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&width=720&height=60&lines=%3E+initializing+Mithujan.exe...;%3E+Computer+Science+%40+IIT+%26+Univ.+of+Westminster;%3E+building+Flutter+%2B+NestJS+systems;%3E+writing+tests+so+APIs+don't+break;%3E+shipping+Sarvodaya+Connect+%F0%9F%9A%80" alt="Typing SVG" />
-</a>
+## About
 
-<br/>
+I'm a Level 5 Computer Science student at **IIT** and the **University of Westminster**, based in Colombo, Sri Lanka.
+I like building apps end to end: the mobile screens people tap, the APIs behind them, and the tests that keep both honest.
 
-<img src="https://komarev.com/ghpvc/?username=mithujannnnnn&label=PROFILE+VIEWS&style=for-the-badge&color=7B2FF7" alt="profile views" />
-<img src="https://img.shields.io/badge/STATUS-ONLINE-00F5FF?style=for-the-badge&labelColor=0d1117" alt="status" />
-<img src="https://img.shields.io/badge/LOCATION-COLOMBO%2C%20SRI%20LANKA-FF2E97?style=for-the-badge&labelColor=0d1117" alt="location" />
+- 📱 Mobile and API work on **Sarvodaya Connect**, a platform for village societies of the Sarvodaya Shramadana Movement
+- 🧪 Writing unit and end-to-end tests so endpoints behave before the UI relies on them
+- 🌿 Working in Jira and GitHub sprints: branch per task, pull request review, squash merge
+- 📚 Currently deep in Spring Boot, relational database design, and Flutter
 
-</div>
+<img src="assets/divider.svg" width="100%" alt="" />
 
----
+## Tech I use
 
-## `> whoami`
+<p>
+  <img src="https://skillicons.dev/icons?i=flutter,dart,nestjs,ts,nextjs,java,spring,postgres,prisma,html,css,git,github&theme=dark&perline=13" alt="Tech stack" />
+</p>
 
-```ts
-const mithujan = {
-  role: "Computer Science Student (Level 5)",
-  studyingAt: ["IIT", "University of Westminster"],
-  focus: ["Mobile (Flutter)", "REST APIs", "API testing", "Databases"],
-  currentlyBuilding: "Sarvodaya Connect",
-  mindset: "Build it. Test it. Ship it.",
-  status: "Always learning ⚡",
-};
-```
+## What I'm building
 
-## 🚀 `> currently building`
-
-| Project | What it is | Stack |
+| Project | About | Stack |
 | :-- | :-- | :-- |
-| **Sarvodaya Connect** | Digital system for village societies of the Sarvodaya Shramadana Movement (5-member team) | Flutter · Next.js · NestJS · PostgreSQL · Prisma |
-| **Products API** | OOP coursework REST API with clean UML design | Java · Spring Boot |
-| **Database Systems** | Enhanced ER modelling and logical design | SQL · ERD |
+| **Sarvodaya Connect** | A five-person team project: a digital system for village societies. I own the mobile officer flow and the API tests. | Flutter · Next.js · NestJS · PostgreSQL |
+| **Products API** | OOP coursework: a REST API with a clean UML design. | Java · Spring Boot |
+| **Database Systems** | Enhanced ER modelling and logical design coursework. | SQL · ERD |
 
-## 🧰 `> tech --stack`
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<div align="center">
+## Live GitHub activity
 
-<img src="https://skillicons.dev/icons?i=flutter,dart,nestjs,ts,nextjs,java,spring,postgres,prisma,html,css,git,github&perline=13" alt="tech stack" />
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mithujannnnnn&show_icons=true&hide_border=true&bg_color=0a0f1f&title_color=7f95ff&icon_color=19c3a6&text_color=c9d1d9&border_radius=14" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mithujannnnnn&layout=compact&hide_border=true&bg_color=0a0f1f&title_color=7f95ff&text_color=c9d1d9&border_radius=14" alt="Top languages" />
+</p>
 
-</div>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=mithujannnnnn&hide_border=true&background=0a0f1f&ring=7f95ff&fire=19c3a6&currStreakLabel=7f95ff&currStreakNum=ffffff&sideNums=ffffff&sideLabels=aab6d8&dates=6b7894&border_radius=14" alt="Contribution streak" />
+</p>
 
-## 📡 `> live github telemetry`
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mithujannnnnn/mithujannnnnn/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mithujannnnnn/mithujannnnnn/output/github-contribution-grid-snake.svg" />
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/mithujannnnnn/mithujannnnnn/output/github-contribution-grid-snake-dark.svg" />
+  </picture>
+</p>
 
-<div align="center">
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=mithujannnnnn&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F5FF&icon_color=FF2E97&text_color=c9d1d9" alt="stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mithujannnnnn&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F5FF&text_color=c9d1d9" alt="top languages" />
-
-<img src="https://streak-stats.demolab.com?user=mithujannnnnn&theme=tokyonight&hide_border=true&background=0d1117&ring=00F5FF&fire=FF2E97&currStreakLabel=00F5FF" alt="streak" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mithujannnnnn&bg_color=0d1117&color=00F5FF&line=7B2FF7&point=FF2E97&area=true&area_color=7B2FF7&hide_border=true&custom_title=Contribution%20Signal" alt="activity graph" width="100%" />
-
-</div>
-
-## 🐍 `> contribution snake`
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mithujannnnnn/mithujannnnnn/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mithujannnnnn/mithujannnnnn/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/mithujannnnnn/mithujannnnnn/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-
-</div>
-
-## 🏆 `> achievements`
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=mithujannnnnn&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" alt="trophies" />
-
-</div>
-
-## 🤝 `> how i work`
-
-- 🧪 Test the API before the UI depends on it
-- 🌿 One branch per task, PR review, squash merge (Jira + GitHub workflow)
-- 📝 Document the setup so nobody gets stuck on day one
-
-## 💬 `> thought of the day`
-
-<div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=false" alt="quote" />
-
-</div>
-
-## 📫 `> connect --open`
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/miththujanniranjan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://www.instagram.com/mithujannnnn/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-<a href="mailto:mithujann0405@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5FF,50:7B2FF7,100:FF2E97&height=120&section=footer&animation=fadeIn" width="100%" />
-
-</div>
+<p align="center"><sub>Build it. Test it. Ship it.</sub></p>
